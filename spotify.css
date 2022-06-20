@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Source+Code+Pro:wght@200&family=Ubuntu:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(218, 213, 207);
+    margin: auto;
+}
+
+nav {
+    font-family: 'Ubuntu', 'Anton';
+    background-color: #333;
+    display: flex;
+}
+
+nav a {
+    padding: 20px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+.band {
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+    margin-top: 9px;
+}
+
+.container {
+    background-color: black;
+    min-height: 85vh;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    color: white;
+  width: 80%;
+    border-radius: 12px;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.Bottom { overflow: hidden;
+    color: white;
+    position: sticky;
+    padding: 5px;
+    bottom: 0;
+    background-color: black;
+    
+}
+
+#myproggesbar {cursor: pointer;
+    width: 94vw;
+}
+
+.icons {
+   margin-top: 10px;
+    text-align: center;
+    color: rgb(0, 255, 204);
+}
+h1{
+    font-size:25px;
+    padding-left: 35px;
+}
+.songItemContiner{
+    margin-top: 44px;
+}
+.songItem{
+    display: flex;
+    height: 50px;
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+   margin: 15px 25px;
+   border-radius: 40px;
+
+}
+.songItem img{ border-radius:25px;
+    width: 48px;
+    margin: 0px 20px;
+    
+}
+.time{
+    margin: 0px 5px;
+}
+.songplayitem{cursor: pointer;
+    margin: 0px 10px;
+}
+.songInfo{ float: left;
+    margin:5px 10px;
+}
+
+#gif{ 
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    
+}
+#masterSonginfo{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.size{
+    text-align: center;
+}
+.found{
+    font-size: 1.5em;
+}
+#id{
+    border-radius: 50px;
+}
+h3{
+    font-size:x-large;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+}
+.sm_handl a{
+    background-color: rgb(169, 167, 167);
+    padding: 15px 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 10px 15px;
+
+}
+.line{
+    font-size: 1.6em;
+    color: rgb(7, 141, 47);
+    margin: 2em 1.5em;
+  
+}
+p{
+    font-size: 20px;
+    margin: 5px 15px;
+    padding-bottom: 20px;
+}
+.sm_handl a:hover{
+    background-color: #e130bec6 ;
+    font-style:italic ;
+}
